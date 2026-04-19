@@ -1,31 +1,30 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "updated": "2026-04-19",
-  "description": "Base de datos de patrones maliciosos para TENAN QR MX",
+  "description": "Base de datos de patrones maliciosos México 2026",
   "malicious_domains": [
-    "free-prizes.com",
-    "banco-seguro-mx.com",
     "actualiza-tus-datos-sat.net",
+    "sat-devolucion-impuestos.com",
     "cfe-recibos-falsos.org",
+    "cfe-pago-urgente.mx.com",
     "multas-transito-cdmx.info",
+    "repuve-consulta-falsa.com",
+    "bbva-alertas-mx.com",
+    "banamex-bloqueo-seguridad.net",
+    "santander-verificacion.io",
+    "banco-seguro-mx.com",
+    "becas-benito-juarez-registro.info",
+    "apoyos-bienestar-gob.com",
+    "free-prizes.com",
     "ganador-sorteo.io"
   ],
   "suspicious_shorteners": [
-    "bit.ly",
-    "t.co",
-    "tinyurl.com",
-    "ouo.io",
-    "qrco.de",
-    "cutt.ly"
+    "bit.ly", "t.co", "tinyurl.com", "ouo.io", "qrco.de", "cutt.ly", "is.gd", "goo.gl", "buff.ly"
   ],
   "dangerous_extensions": [
-    "\\.exe$",
-    "\\.apk$",
-    "\\.bat$",
-    "\\.vbs$"
+    "\\.exe$", "\\.apk$", "\\.bat$", "\\.vbs$", "\\.scr$", "\\.zip$", "\\.rar$"
   ],
   "dangerous_protocols": [
-    "file:///",
-    "javascript:"
+    "file:///", "javascript:", "telnet:", "smb:"
   ]
 }
