@@ -1,0 +1,31 @@
+{
+  "version": "1.0.1",
+  "updated": "2026-04-19",
+  "description": "Base de datos de patrones maliciosos para TENAN QR MX",
+  "malicious_domains": [
+    "free-prizes.com",
+    "banco-seguro-mx.com",
+    "actualiza-tus-datos-sat.net",
+    "cfe-recibos-falsos.org",
+    "multas-transito-cdmx.info",
+    "ganador-sorteo.io"
+  ],
+  "suspicious_shorteners": [
+    "bit.ly",
+    "t.co",
+    "tinyurl.com",
+    "ouo.io",
+    "qrco.de",
+    "cutt.ly"
+  ],
+  "dangerous_extensions": [
+    "\\.exe$",
+    "\\.apk$",
+    "\\.bat$",
+    "\\.vbs$"
+  ],
+  "dangerous_protocols": [
+    "file:///",
+    "javascript:"
+  ]
+}
